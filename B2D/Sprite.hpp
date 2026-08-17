@@ -1,7 +1,7 @@
 #pragma once
 #include <math/transform_2d.h>
-#include <resource/texture.h>
 
+#include <Basic/Resource/texture.h>
 #include <Basic/2D/SpriteBatch.hpp>
 
 

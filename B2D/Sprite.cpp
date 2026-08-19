@@ -10,7 +10,7 @@ Sprite::Sprite()
 Sprite::~Sprite()
 {}
 
-void Sprite::set_texture(Texture2D* new_texture)
+void Sprite::set_texture(Basic::Texture2D* new_texture)
 {
     if(new_texture == nullptr)
     {

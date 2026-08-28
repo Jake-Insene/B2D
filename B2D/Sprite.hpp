@@ -1,6 +1,6 @@
 #pragma once
-#include <math/color.h>
-#include <math/transform_2d.h>
+#include <Math/color.h>
+#include <Math/transform_2d.h>
 
 #include <Basic/Resource/Texture.hpp>
 #include <Basic/2D/SpriteBatch.hpp>

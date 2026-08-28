@@ -30,7 +30,7 @@ void Sprite::draw(const Transform2D& transform, Basic::SpriteBatch& sprite_batch
         return;
     }
 
-    sprite_batch.draw_texture_transformed(
+    sprite_batch.draw_texture_transformed_pivot_centered(
         sprite_rect, transform, uv_rect, mod_color,
         texture->texture_view, Vector2(texture->size), Basic::SpriteFilter::Nearest);
 }

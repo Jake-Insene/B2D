@@ -8,6 +8,8 @@ bread_package(
     INCLUDES
         "."
     SOURCES
+        "B2D/Animation/AnimatedProperty.cpp"
+
         "B2D/Sprite.cpp"
 )
 

@@ -26,4 +26,9 @@ AnimationLibrary::Animation& AnimationLibrary::add_animation(Collections::String
     return anim;
 }
 
+AnimationLibrary::Animation& AnimationLibrary::get_animation(Collections::StringView name)
+{
+    return data.animations.get(name);
+}
+
 }

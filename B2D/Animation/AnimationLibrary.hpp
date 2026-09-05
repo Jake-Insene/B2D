@@ -53,6 +53,7 @@ struct AnimationLibrary
     AnimationLibrary(Mem::Allocator& allocator, Basic::Texture2D* spritesheet);
 
     Animation& add_animation(Collections::StringView name, bool loop);
+    Animation& get_animation(Collections::StringView name);
 };
 
 }

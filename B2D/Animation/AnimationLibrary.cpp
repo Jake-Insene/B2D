@@ -28,6 +28,7 @@ AnimationLibrary::Animation& AnimationLibrary::add_animation(Collections::String
 
 AnimationLibrary::Animation& AnimationLibrary::get_animation(Collections::StringView name)
 {
+    DebugAssert(data.animations.has(name), "animation doesn't exists!");
     return data.animations.get(name);
 }
 
